@@ -11,4 +11,8 @@ public class PruebaRestController {
     public String saludo() {
         return "¡Hola desde el servicio REST!";
     }
+
+    private String cadena(){
+        return "prueba";
+    }
 }
